@@ -14,6 +14,16 @@ Supplementary codes for my Honours thesis.
 
 ## Runing the functions
 
+
+Load the R packages
+
+```
+require(distr)
+require(scales)
+require(cvTools)
+require(edgeR)
+```
+
 Download and read the mixtureModels.R file.
 
 ```
@@ -29,11 +39,10 @@ gene_mean <- 2^runif(nGene, -2, 8)
 count <- matrix(rnbinom(nGene*nCell, mu=gene_mean, size=10), nrow=nGene)
 ```
 
-Then we need to transform the raw count matrix into a log-scale counts per million mapped reads (CPM) matrix. Note that, one can also use log-scale FPKM, RPKM or TPM matrix as the input of mixture model functions.
+Then we need to transform the raw count matrix into a log-scale counts per million mapped reads (CPM) matrix. Note that, one can also use log-scale FPKM, RPKM or TPM matrix or other normalisation output as the input of mixture model functions.
 
 ```
 #Transform the raw count matrix
-require(edgeR)
 log2cpm<-log2(cpm(count)+1)
 ```
 
