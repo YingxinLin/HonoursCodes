@@ -14,7 +14,7 @@ Supplementary codes for my Honours thesis.
 
 ## Runing the functions
 
-Download the mixtureModels.R file 
+Download and read the mixtureModels.R file.
 
 ```
 source("mixtureModels.R")
