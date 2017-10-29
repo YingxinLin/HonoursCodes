@@ -46,6 +46,8 @@ GG_gene1<-gammaMix(log2cpm[1,])
 
 ### Fitting the GN and GG for the whole dataset to get global parameters
 
+Note that the fittings for the entire dataset need a few minutes...
+
 ```
 GN_dataset<-gammaNormMix(log2cpm,plot=FALSE)
 GG_dataset<-gammaMix(log2cpm,plot=FALSE)
