@@ -1,6 +1,6 @@
 # Supplementary Codes
 
-Supplementary codes for my Honours thesis
+Supplementary codes for my Honours thesis.
 
 ## Mixture models for gene distributions in single-cell RNA-seq data
 
@@ -14,11 +14,13 @@ Supplementary codes for my Honours thesis
 
 ## Runing the functions
 
+Download the mixtureModels.R file 
+
 ```
 source("mixtureModels.R")
 ```
 
-We start from a count matrix, where each row represents a gene, and each column represents a cell. Here, we simulate a count matrix from a negative binomial distribution with 20000 genes and 250 cells.
+We start from a count matrix, where each row represents a gene, and each column represents a cell. Here, we simulate a count matrix from a negative binomial distribution with 20000 genes and 250 cells as an example.
 
 ```
 nGene<-20000
