@@ -65,4 +65,4 @@ Yingxin Lin
 
 ## Acknowledgement
 
-gammaNormMix() function is modified from the codes provided by Shila Ghazanfar.
+`gammaNormMix()` function is modified from the codes provided by Shila Ghazanfar.
