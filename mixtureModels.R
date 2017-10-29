@@ -365,7 +365,7 @@ gammaNormFix = function(data, alpha_fix=NULL,beta_fix=NULL,thresh = 1e-7, maxite
 #Initialisation function for Gamma Mixture Model (Modified from gammamix.init() of the R package mixtools)
 gammamix.init <- function(x, lambda = NULL, alpha = NULL, beta = NULL, k = 2,cv=TRUE){
   require(cvTools)
-  require(mclust)
+  #require(mclust)
   x<-x[x>0]
   n <- length(x)
 
