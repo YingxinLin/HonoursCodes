@@ -1,11 +1,16 @@
 # Supplementary Codes
 
+Supplementary codes for my Honours thesis
+
 ## Mixture models for gene distributions in single-cell RNA-seq data
 
-+ Gamma-Normal (GN)
-+ Constrained Gamma-Normal (cGN)
-+ Gamma-Gamma (GG)
-+ Constrained Gamma-Gamma (cGG)
++ Four mixture models: 
+  + Gamma-Normal (GN): `gammaNormMix()`
+  + Constrained Gamma-Normal (cGN): `gammaNormFix()`
+  + Gamma-Gamma (GG): `gammaMix()`
+  + Constrained Gamma-Gamma (cGG): `gammaMixFix()`
++ Model selection:
+  + Select the best model using BIC: `modelSelect()`
 
 ## Runing the functions
 
