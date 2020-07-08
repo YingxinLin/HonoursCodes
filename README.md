@@ -72,8 +72,10 @@ cGG_gene1<-gammaMixFix(log2cpm[1,],alpha_fix=GG_dataset$alpha1,beta_fix=GG_datas
 ### Select the best model for Gene 1 using BIC
 
 ```
+
 modelSelect(log2cpm[1,],alpha_fix=GG_dataset$alpha1,beta_fix=GG_dataset$beta1,
  	alpha_fix_norm=GN_dataset$alpha,beta_fix_norm =GN_dataset$beta,parameter=TRUE)
+  
 ```
 
 
